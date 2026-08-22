@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Kotlin",
+            "type": "shell",
+            "command": "./gradlew :app:compileKotlin",
+            "windows": {
+                "command": "./gradlew.bat :app:compileKotlin"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
