@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\Admin04\\AndroidStudioProjects\\QuickBiteprojectsQuickBite",
+			"script": "projects",
+			"description": "Displays the sub-projects of root project 'QuickBite'.",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"project": "QuickBite",
+			"buildFile": "C:\\Users\\Admin04\\AndroidStudioProjects\\QuickBite\\build.gradle.kts",
+			"rootProject": "QuickBite",
+			"projectFolder": "c:\\Users\\Admin04\\AndroidStudioProjects\\QuickBite",
+			"workspaceFolder": "c:\\Users\\Admin04\\AndroidStudioProjects\\QuickBite",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: projects"
+		}
+	]
+}
